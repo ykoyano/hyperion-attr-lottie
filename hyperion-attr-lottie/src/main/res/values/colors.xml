@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ha_l_black">#000000</color>
+    <color name="ha_l_off_white">#FAFAFA</color>
+    <color name="ha_l_selection">#8078909C</color>
+    <color name="ha_l_selected_attribute_background">#ffffffff</color>
+    <color name="ha_l_attribute_background">@android:color/transparent</color>
+    <color name="ha_l_hype_plugin_text">#8e8e93</color>
+    <color name="ha_l_hype_white">#FFFFFF</color>
+    <color name="ha_l_popup_background">#737373</color>
+    <color name="ha_l_attribute_key">#cccccc</color>
+    <color name="ha_l_property_attribute">#cccccc</color>
+</resources>

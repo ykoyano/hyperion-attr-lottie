@@ -1,0 +1,10 @@
+<resources>
+    <public name="ha_l_attributes" type="string">Hyperion--Attributes-Lottie</public>
+    <string name="ha_l_plugin_name">Lottie Inspector</string>
+    <string name="ha_l_plugin_subtitle">Tap to inspect views and adjust their attributes.</string>
+    <string name="ha_l_cd_visual">Visual Value</string>
+    <string name="ha_l_enter_value">Enter value</string>
+    <string name="ha_l_mutate">Mutate</string>
+    <string name="ha_l_qr_code_overlay">QR code overlay</string>
+    <string name="ha_l_scan_prompt">Scan QR Code</string>
+</resources>
