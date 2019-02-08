@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hyperion-Attr-Lottie</string>
+    <string name="list_activity">List Activity</string>
+    <string name="walkthrough_activity">Walkthrough Activity</string>
+    <string name="walkthrough_message">Hello World!</string>
+    <string name="descripion">This is test description.This is test description.</string>
+</resources>
