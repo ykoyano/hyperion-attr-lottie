@@ -1,8 +1,12 @@
 package com.github.ykoyano.hyperion.plugin.attr.lottie
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.github.ykoyano.hyperion.plugin.attr.lottie.walkthrough.WalkthroughActivity
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +27,12 @@ class MainActivity : AppCompatActivity() {
 
         walkthroughButton.setOnClickListener {
             startActivity(WalkthroughActivity.intent(this))
+        }
+
+        if (BuildConfig.DEBUG &&
+                ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) ==
+                PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA), 1234)
         }
     }
 }
